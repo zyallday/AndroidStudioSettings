@@ -1,0 +1,15 @@
+<templateSet group="AndroidComments">
+  <template name="ooooc" value="/* $content$ */" description="/* content */" toReformat="true" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="region" value="//region $block$&#10;//region" description="code region" toReformat="false" toShortenFQNames="true">
+    <variable name="block" expression="" defaultValue="Block Name" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

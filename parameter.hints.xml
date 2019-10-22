@@ -1,0 +1,7 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+    </blacklists>
+    <option id="SHOW_PROPERTY_HINT" value="true" />
+  </component>
+</application>

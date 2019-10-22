@@ -1,0 +1,7 @@
+<templateSet group="RecyclerView">
+  <template name="vhe" value="class ViewHolder(view: View) : android.support.v7.widget.RecyclerView.ViewHolder(view)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
