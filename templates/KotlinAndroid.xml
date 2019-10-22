@@ -1,0 +1,10 @@
+<templateSet group="KotlinAndroid">
+  <template name="pm" value="const val PARAM_$PARAM$ = &quot;$packageName$.$className$.$PARAM$&quot;" description="PARAM_KEY" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="packageName" expression="kotlinPackageName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
