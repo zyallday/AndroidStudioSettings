@@ -1,2 +1,0 @@
-# AndroidStudioSettings
-AndroidStudioSettings Sync
