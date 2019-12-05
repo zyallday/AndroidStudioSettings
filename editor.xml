@@ -1,4 +1,21 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="SHOW_EXTERNAL_ANNOTATIONS_INLINE" value="false" />
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+    <EXCLUDED_PACKAGE NAME="autovalue.shaded" />
+    <EXCLUDED_PACKAGE NAME="avro.shaded" />
+    <EXCLUDED_PACKAGE NAME="com.beust.jcommander.internal" />
+    <EXCLUDED_PACKAGE NAME="com.sun.istack" />
+    <EXCLUDED_PACKAGE NAME="jline.internal" />
+    <EXCLUDED_PACKAGE NAME="joptsimple.internal" />
+    <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
+    <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
+    <EXCLUDED_PACKAGE NAME="org.assertj.core.util" />
+    <EXCLUDED_PACKAGE NAME="org.flywaydb.core.internal.util" />
+    <EXCLUDED_PACKAGE NAME="org.hibernate.validator.internal" />
+    <EXCLUDED_PACKAGE NAME="org.mockito.internal.util.collections" />
+    <EXCLUDED_PACKAGE NAME="org.mockito.internal.verification.VerificationModeFactory" />
+  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
