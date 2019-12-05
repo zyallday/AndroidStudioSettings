@@ -2,9 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping pattern="buildAndstartApp" type="PLAIN_TEXT" />
-      <mapping pattern="libprotect" type="PLAIN_TEXT" />
       <mapping pattern="services" type="PLAIN_TEXT" />
+      <mapping pattern="buildAndstartApp" type="PLAIN_TEXT" />
+      <mapping pattern="clean_swp" type="PLAIN_TEXT" />
+      <mapping pattern="libprotect" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
