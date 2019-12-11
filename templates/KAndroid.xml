@@ -7,7 +7,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="ct" value="Thread.currentThread()" description="Current Thread" toReformat="false" toShortenFQNames="true">
+  <template name="currt" value="Thread.currentThread()" description="Current Thread" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>

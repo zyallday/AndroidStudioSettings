@@ -1,11 +1,39 @@
 <templateSet group="KAndroidLog">
-  <template name="klogt" value="const val TAG = &quot;$className$&quot;" description="A static logtag with your current classname" toReformat="false" toShortenFQNames="true">
+  <template name="klogt" value="private const val TAG = &quot;$className$&quot;" description="A static logtag with your current classname" toReformat="false" toShortenFQNames="true">
     <variable name="className" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
     </context>
   </template>
   <template name="klogd" value="android.util.Log.d(TAG, &quot;$METHOD_NAME$: $content$&quot;)" description="Log.d(TAG,String)" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="klogv" value="android.util.Log.v(TAG, &quot;$METHOD_NAME$: $content$&quot;)" description="Log.v(TAG,String)" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="klogw" value="android.util.Log.w(TAG, &quot;$METHOD_NAME$: $content$&quot;)" description="Log.w(TAG,String)" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="kloge" value="android.util.Log.e(TAG, &quot;$METHOD_NAME$: $content$&quot;)" description="Log.e(TAG,String)" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="klogi" value="android.util.Log.i(TAG, &quot;$METHOD_NAME$: $content$&quot;)" description="Log.i(TAG,String)" toReformat="false" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
